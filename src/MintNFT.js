@@ -215,7 +215,7 @@ function MintNFT() {
               Mint NFT
             </Button>
           </Box>
-          {loading && <LinearProgress />}
+          {loading && <LinearProgress color="secondary" />}
 
           <Snackbar
             open={alertOpen}
@@ -255,6 +255,7 @@ function MintNFT() {
                     href={`https://explorer-liberty20.shardeum.org/transaction/${hash}`}
                     target="_blank"
                     rel="noopener noreferrer"
+                    color="secondary"
                   >
                     {`Transaction ${index + 1}: ${hash}`}
                   </Link>
