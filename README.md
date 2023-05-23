@@ -1,6 +1,5 @@
 # Shardeum x Spheron NFT Minter Dapp
 
-This is an example of a NFT minter dapp on Shardeum.
 NFT Minter Dapp deployed on Shardeum and hosted on Spheron.
 
 ## Tech Stack Used
