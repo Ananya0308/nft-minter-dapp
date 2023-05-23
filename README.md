@@ -2,6 +2,13 @@
 
 NFT Minter Dapp deployed on Shardeum and hosted on Spheron.
 
+## Resources
+
+- Spheron: https://app.spheron.network/
+- Shardeum: https://shardeum.org/
+- Remix: https://remix.ethereum.org/
+- How to Deploy React Apps on Spheron: https://docs.spheron.network/framework-guide/deploy-react/
+
 ## Tech Stack Used
 
 - React
