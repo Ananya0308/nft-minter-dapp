@@ -1,6 +1,7 @@
-# Shardeum NFT Minter Dapp Example
+# Shardeum x Spheron NFT Minter Dapp
 
 This is an example of a NFT minter dapp on Shardeum.
+NFT Minter Dapp deployed on Shardeum and hosted on Spheron.
 
 ## Tech Stack Used
 
@@ -8,8 +9,7 @@ This is an example of a NFT minter dapp on Shardeum.
 - Ethers
 - Hardhat
 - Solidity
-- Hardhat
-- Pinata
+- Spheron Browser Upload
 - Material UI
 
 ## Features
@@ -24,7 +24,7 @@ This is an example of a NFT minter dapp on Shardeum.
 1. Clone the repo
 
 ``` 
-git clone https://github.com/skundu42/nft-minter-dapp.git 
+https://github.com/aayushmahapatra/nft-minter-dapp.git
 ```
 
 2. Install dependencies
@@ -35,13 +35,14 @@ npm install
 3. Rename .env.example file to .env and add the values
 
 ``` 
-YOUR_PINATA_API_KEY=
-YOUR_PINATA_API_SECRET=
-privatekey= 
+REACT_APP_CONTRACT_ADDRESS=
+REACT_APP_METAMASK_PRIVATE_KEY=
+REACT_APP_BACKEND_ADDR=http://ut5a2j42ihd433tksohp3h5umc.ingress.america.computer
 ```
 4. Run the app
 
 ``` 
 npm start
 ```
-Feel free to clone and modify the code as you wish. If you wish to contribute, please open a PR. 
+
+> Feel free to clone and modify the code as you wish. If you wish to contribute, please open a PR.
